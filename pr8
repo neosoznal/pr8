@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+# Створення даних для графіку
+x = range(-10, 11)
+y = [xi**2 for xi in x]
+
+# Побудова графіку
+plt.plot(x, y)
+
+# Додаткові налаштування графіку
+plt.title('Графік функції y = x^2')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.grid(True)
+
+# Відображення графіку
+plt.show()
